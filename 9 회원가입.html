@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="http://naver.com/login.php">
+      <h1>회원가입</h1>
+
+      <p>
+        <label for="생년월일">생년월일 :</label>
+        <input type="text" placeholder="예: 19300412" name="생년월일" id="생년월일"></p>
+      <p>
+        <label for="아이디">아이디 입력:</label>
+        <input type="text"+ name="id" id="아이디">
+      </p>
+      <p>
+        <label for="비밀번호">비밀번호 입력:</label>
+        <input type="password" name="pwd" id="비밀번호">
+      </p>
+      <p>
+        <label for="비밀번호 재확인">비밀번호 재확인:</label>
+        <input type="password" name="pwd" id="비밀번호 재확인">
+      </p>
+
+      <pre>
+      관리자에게 하고싶은 말씀 있으시면 해주세요
+      <textarea name="불만" rows="5" cols="50" placeholder="사이트가 너무 구려요"></textarea>
+      </pre>
+      <input type="button" value="가입하기" onclick="alert('회원가입이 성공적으로 완료되었습니다!'), location.href='7 게시판.html'" >
+      <footer>
+        <p><a href="7 게시판.html">게시판 바로가기</a></p>
+      </footer>
+    </form>
+  </body>
+</html>
